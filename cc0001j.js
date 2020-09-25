@@ -10,7 +10,7 @@ document.getElementById("check").addEventListener("click",function(){
     console.log("fibonacci(n)", fibonacci(n))
     
     document.getElementById("indexNum").innerHTML = "Index :" + n;
-    document.getElementById("result").innerHTML= "fibonacci(n)= " + fibonacci(n);
+    document.getElementById("result").innerHTML= "fibo(n)= " + fibonacci(n);
 })
 
 document.getElementById("index").addEventListener("keyup",function(event){
